@@ -1,7 +1,7 @@
 #CXX:=clang++-3.5
 CXX=g++
 CXXFLAGS:=-std=c++11 -g -O0
-LIBS:=-I/usr/include/ -I/home/alendit/hyper/Boost.NumPy `python2.7-config --cflags`
+LIBS:=-I/usr/include/ -IBoost.NumPy `python2.7-config --cflags`
 LDLIBS:=`python2.7-config --ldflags` -L/usr/lib/ -lboost_python -LBoost.NumPy/build/lib -lboost_numpy
 
 clean: 

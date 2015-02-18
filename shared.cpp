@@ -5,5 +5,5 @@
 namespace bn = boost::numpy;
 
 bn::dtype getDType() {
-   return bn::dtype::get_builtin<uint32_t>();
+   return bn::dtype::get_builtin<double>();
 }
